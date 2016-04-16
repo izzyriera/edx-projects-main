@@ -1,23 +1,41 @@
-<!Doctype>
+<!Doctype html>
 <html>
 
 <head>
    <meta charset="utf-8">
-   <title>Vegan Recipes</title>
+   <title>Izzy's Go-To Vegan Recipes</title>
 </head>
+
 <body>
-    <h1>Vegan Recipes</h1>
-        <p>Quick and Delicious Avocado Toast!</p>
-        <br>
+    <header>   
+        <h1>Izzy's Go-To Vegan Recipes</h1>
+        <nav>
+            <ul>
+                <li><a href="#avotoast">Avocado Toast</a></li>
+                <li><a href="#acai">Acai Bowl</a></li>
+                <li><a href="#cauliflower">Roasted Cauliflower</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <article id="avotoast">
+        <h2>Avocado Toast</h2>
+            <img src="http://www.everythingerica.com/wp-content/uploads/2014/10/Avocado-Toast-with-Chia-Seeds.jpg" 
+             alt="Avocado toast on whole grain bread" title="Avocado Toast" width="300" />
         <p>Ingredients</p>
-        <ul>
-            <li>Whole Grain bread</li>
-            <li>Ripe Hass Avocado</li>
-            <li>Pink Salt</li>
-            <li>Chia Seeds *optional but recommended</li>
-            <li>Raw sliced almonds *optional but recommended</li>
-        </ul>
-        
+            <ul>
+                <li>Whole Grain bread</li>
+                <li>Ripe Hass Avocado</li>
+                <li>Pink Salt</li>
+            </ul>
+            <details>
+                <summary>Topping Suggestions</summary>
+                    <ul>     
+                        <li>Chia Seeds</li>
+                        <li>Raw sliced almonds</li>
+                        <li>Pumpkin Seeds</li>
+                    </ul>
+            </details>
         <p>Instructions</p>
         <ol>
             <li>Place bread in toaster</li>
@@ -25,6 +43,94 @@
             <li>Spread smashed Avocado on toast</li>
             <li>Top with salt to taste, chia seeds, and almonds</li>
             <li>Get creative with your toppings!</li>
+        
         </ol>
+        <aside>
+            <p class="comments">
+            Avocado toast is a quick and nutritious breakfast option.
+            </p>  
+            <p class="comments">
+            It can also be had as a treat or snack.
+            </p>
+       </aside>       
+    </article>
+    
+    <article id="acai">
+        <h2>Acai Bowl</h2>
+        <img src="http://millennialmagazine.com/wp-content/uploads/2014/07/Sambazon.jpg" 
+             alt="Acai Bowl with toppings" title="Acai Bowl" width="300" />
+        <p>Ingredients</p>
+        <ul>
+            <li>Sambazon Organic Acai Berry Packets</li>
+            <li>8oz Almond Milk</li>
+            <li>1 tbsp Honey <li>
+            <li>Banana</li>
+            <li>Chia Seeds</li>
+            <li>Raw sliced almonds</li>
+            <li>Coconut Chips</li>
+            <li>Granola of choice</li>
+        </ul>
+        
+        <p>Instructions</p>
+        <ol>
+            <li>Place Acai berry packet, half of the banana, honey and almond milk in blender</li>
+            <li>Blend until thick and creamy</li>
+            <li>Spread granola on bottom of medium sized bowl</li>
+            <li>Pour smoothie over granola</li>
+            <li>Top with remaining banana, chia seeds, coconut chips and almonds</li>
+            <li>Get creative with your toppings!</li>
+        
+        </ol>
+        <aside>
+            <p class="comments">
+            Acai berries are full of antioxidants and have been linked to weightloss!
+            </p>  
+            <p class="comments">
+            If you're looking for a delicious treat with a nutrient punch, you've found it!
+            </p>  
+        </aside>
+    </article>
+    
+    <article id="cauliflower">
+        <h2>Roasted Cauliflower</h2>
+        <img src="http://www.dinnerwithjulie.com/wp-content/uploads/2012/02/Roasted-cauliflower-2.jpg" 
+             alt="plated roasted cauliflower" title="Roasted Cauliflower" width="300" />
+        <p>Ingredients</p>
+        <ul>
+            <li>1 Medium sized whole Cauliflower</li>
+            <li><a href="http://www.thekitchn.com/how-to-roast-garlic-in-the-oven-5341" target="_blank">Roasted Garlic</a></li>
+            <li>Pink Salt</li>
+            <li>Black Pepper</li>
+            <li>Olive Oil</li>
+        </ul>
+        
+        <p>Instructions</p>
+        <ol>
+            <li>Cut Cauliflower utilizing the florets only</li>
+            <li>In a large bowl combine all other ingredients</li>
+            <li>Toss cauliflower to evently coat</li>
+            <li>Bake at 425&deg; for 30 minutes</li>
+            <li>Feel free to cook longer if you prefer a darker roast</li>
+        
+        </ol>
+        <aside>
+            <p class="comments">
+            Cauliflower is a low carbohydrate side that will satisfy even the hungriest of guests.
+            </p>  
+            <p class="comments">
+            Fun Fact: 1 serving of cauliflower has the recommended amount of fiber for an enetire day!
+            </p>  
+        </aside>
+    </article> 
+    
+    <footer>
+       <nav>
+           <ul>
+               <li><a href="mailto:example@gmail.com">Contact</a></li>
+               <li><a href="http://www.peta.org/living/food/free-vegan-starter-kit/" target="_blank">Go Vegan!</a></li>
+           </ul>
+       </nav> 
+    </footer>    
 </body>
+
 </html>
